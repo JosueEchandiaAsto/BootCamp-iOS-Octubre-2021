@@ -238,3 +238,32 @@ car2.model = "Yaris"
 
 print(car1.model)
 print(car2.model)
+
+// Mi Avance
+
+enum TipoLogin{
+    case lite
+    case full
+}
+
+var tipoDeLogin: TipoLogin?
+
+
+// Vamos al servicio
+tipoDeLogin = nil
+
+if let tipo = tipoDeLogin{
+    print("Servicio respondio correctamente")
+    
+    switch tipo {
+    case .full:
+        
+        print("---- FULL ----")
+    case .lite:
+        
+        print("---- LITE ----")
+    }
+    
+}else{
+    print("Servicio respondio erradamente")
+}
