@@ -234,7 +234,7 @@ struct Car { //enum
 let car1 = Car(color: "", model: "")
 var car2 = car1
 
-car2.model = "Yaris"
+car2.model = "Toyota"
 
 print(car1.model)
 print(car2.model)
